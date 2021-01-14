@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<title>WITS</title>
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
-	<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-	<link rel="stylesheet" type="text/css" href="main.css" />
+<html>
 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Home</title>
+	<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	
+	<!--Slick slider-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+		
+    
 </head>
 
 <body>
 
-	<section class="header">
-		<div id="topnav" class="container navbar" style="letter-spacing: 0.05em; text-transform: uppercase; font-size: small;">
-			<a href="./"><img src="images/wits_blue.png" alt="WITS logo" height="20px" width="50px"></a>
-
-			<div class="topnav-right ">
-				<a href="#" class="nav_button" href="javascript:void(0)">INITIATIVE</a>
-				<a href="#" class="nav_button" href="javascript:void(0)">PARTNER</a>
-				<a href="#" class="nav_button" href="javascript:void(0)">ABOUT US</a>
-				<a href="#" class="joinbutton" style="color: white" href="javascript:void(0)">JOIN US</a>
+	<header>
+		<nav class="navbar navbar-light navbar-expand-md fixed-top">
+			<div class = "container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a href="index.html" class="navbar-brand vertical-center" style="padding: 5px auto 2px auto;"><img src="images/wits.png" alt="she/hacks"></a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="navbar-toggler-icon"></i>
+				</button>  
+				
+				<!-- collapse navbar -->
+				<div class="navbar-collapse collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto w-100 clearfix" >
+						<li class="nav-item vertical-center"><a class="nav-link" href="initiatives.html">INITIATIVES</a></li>
+						<li class="nav-item vertical-center"><a class="nav-link" href="partners.html">PARTNER</a></li>
+						<li class="nav-item vertical-center"><a class="nav-link" href="about.html">ABOUT US</a></li>
+						<li class="nav-item vertical-center"><a class="nav-link" target="_blank" href="https://witsuwo.wixsite.com/merch">STORE</a></li>
+						<li class="nav-item vertical-center"><a class="nav-link" href="membership.html"><button class="join-button">JOIN US</button></a></li>
+					</ul>
+				</div>
 			</div>
-
-		</div>
+		</nav>
+	</header>
